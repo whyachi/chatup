@@ -1,5 +1,8 @@
 shared: &shared
   version: '4.12.1'
+  app_name: 'ChatUp'
+  app_domain: 'whyachikovacs.com'
+  default_locale: 'tr'
 
 development:
   <<: *shared

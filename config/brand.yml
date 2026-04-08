@@ -1,0 +1,17 @@
+name: 'ChatUp'
+tagline: 'Emlak profesyonelleri için akıllı CRM'
+short_description: 'Türkiye emlak sektörüne özel müşteri ilişkileri yönetimi'
+
+primary_color: '#1B4F72'
+primary_color_light: '#D6E8F7'
+primary_color_dark: '#154060'
+secondary_color: '#2ECC71'
+secondary_color_dark: '#27AE60'
+
+logo_path: '/brand-assets/logo.svg'
+logo_thumbnail_path: '/brand-assets/logo-thumbnail.svg'
+favicon_path: '/brand-assets/favicon.ico'
+
+support_email: 'destek@whyachikovacs.com'
+domain: 'whyachikovacs.com'
+company_name: 'ChatUp'

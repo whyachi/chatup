@@ -3,6 +3,10 @@
 require 'pathname'
 
 module ChatwootApp
+  APP_NAME    = ENV.fetch('APP_NAME', 'ChatUp')
+  APP_VERSION = '4.12.1'
+  APP_DOMAIN  = ENV.fetch('APP_DOMAIN', 'whyachikovacs.com')
+
   def self.root
     Pathname.new(File.expand_path('..', __dir__))
   end
