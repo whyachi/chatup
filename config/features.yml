@@ -17,10 +17,10 @@
   display_name: Facebook Channel
   enabled: true
   help_url: https://chwt.app/hc/fb
-- name: channel_twitter
-  display_name: Twitter Channel
-  enabled: true
-  deprecated: true
+- name: chatup_boilerplate
+  display_name: "[ChatUp] Boilerplate Module"
+  enabled: false
+  chatup: true
 - name: ip_lookup
   display_name: IP Lookup
   enabled: false
@@ -241,7 +241,3 @@
   display_name: Advanced Assignment
   enabled: false
   premium: true
-- name: chatup_boilerplate
-  display_name: "[ChatUp] Boilerplate Module"
-  enabled: false
-  chatup: true
