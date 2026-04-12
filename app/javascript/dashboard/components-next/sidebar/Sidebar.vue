@@ -568,6 +568,21 @@ const menuItems = computed(() => {
         },
       ],
     },
+    // ChatUp custom modules — entries are added here as new modules ship.
+    // Visibility is governed by the `featureFlag` on each route's meta.
+    {
+      name: 'ChatUp Modules',
+      label: t('SIDEBAR.CHATUP_MODULES.TITLE'),
+      icon: 'i-lucide-blocks',
+      activeOn: ['chatup_boilerplate_index'],
+      children: [
+        {
+          name: 'ChatUp Boilerplate',
+          label: t('SIDEBAR.CHATUP_MODULES.BOILERPLATE'),
+          to: accountScopedRoute('chatup_boilerplate_index'),
+        },
+      ],
+    },
     {
       name: 'Settings',
       label: t('SIDEBAR.SETTINGS'),

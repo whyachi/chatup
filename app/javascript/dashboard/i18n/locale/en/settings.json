@@ -382,7 +382,21 @@
     "DOCS": "Read docs",
     "SECURITY": "Security",
     "CAPTAIN_AI": "Captain",
-    "CONVERSATION_WORKFLOW": "Conversation Workflow"
+    "CONVERSATION_WORKFLOW": "Conversation Workflow",
+    "CHATUP_MODULES": {
+      "TITLE": "ChatUp Modules",
+      "BOILERPLATE": "Boilerplate"
+    }
+  },
+  "CHATUP_BOILERPLATE": {
+    "TITLE": "ChatUp Boilerplate",
+    "SUBTITLE": "Reference skeleton module. Duplicate this to create new ChatUp modules.",
+    "ADD": "Add item",
+    "DELETE": "Delete",
+    "LOADING": "Loading items...",
+    "EMPTY": "No items yet. Click 'Add item' to create one.",
+    "PROMPT_NAME": "Item name",
+    "CONFIRM_DELETE": "Delete this item?"
   },
   "CAPTAIN_SETTINGS": {
     "TITLE": "Captain Settings",

@@ -241,3 +241,7 @@
   display_name: Advanced Assignment
   enabled: false
   premium: true
+- name: chatup_boilerplate
+  display_name: "[ChatUp] Boilerplate Module"
+  enabled: false
+  chatup: true

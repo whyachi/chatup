@@ -1,0 +1,11 @@
+// Mutation types for ChatUp custom modules.
+// Kept isolated from the core store/mutation-types.js so upstream merges
+// do not conflict when new ChatUp modules add their own types.
+export default {
+  // Boilerplate module
+  SET_CHATUP_BOILERPLATE_UI_FLAG: 'SET_CHATUP_BOILERPLATE_UI_FLAG',
+  SET_CHATUP_BOILERPLATE_ITEMS: 'SET_CHATUP_BOILERPLATE_ITEMS',
+  CREATE_CHATUP_BOILERPLATE_ITEM: 'CREATE_CHATUP_BOILERPLATE_ITEM',
+  EDIT_CHATUP_BOILERPLATE_ITEM: 'EDIT_CHATUP_BOILERPLATE_ITEM',
+  DELETE_CHATUP_BOILERPLATE_ITEM: 'DELETE_CHATUP_BOILERPLATE_ITEM',
+};

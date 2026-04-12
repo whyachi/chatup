@@ -19,5 +19,8 @@ module Enterprise::Concerns::Account
     has_many :voice_channels, dependent: :destroy_async, class_name: '::Channel::Voice'
 
     has_one :saml_settings, dependent: :destroy_async, class_name: 'AccountSamlSettings'
+
+    # ChatUp custom modules
+    has_many :chatup_boilerplate_items, dependent: :destroy_async, class_name: 'Chatup::BoilerplateItem'
   end
 end

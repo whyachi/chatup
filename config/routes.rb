@@ -467,6 +467,11 @@ Rails.application.routes.draw do
               get :grouped_conversation_metrics
             end
           end
+
+          # ChatUp custom modules
+          namespace :chatup do
+            resources :boilerplate_items
+          end
         end
       end
     end
