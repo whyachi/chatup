@@ -471,6 +471,7 @@ Rails.application.routes.draw do
           # ChatUp custom modules
           namespace :chatup do
             resources :boilerplate_items
+            resource :ai_agent, only: [:show, :update]
           end
         end
       end

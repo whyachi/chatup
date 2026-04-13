@@ -22,5 +22,6 @@ module Enterprise::Concerns::Account
 
     # ChatUp custom modules
     has_many :chatup_boilerplate_items, dependent: :destroy_async, class_name: 'Chatup::BoilerplateItem'
+    has_one :chatup_ai_agent, dependent: :destroy, class_name: 'Chatup::AiAgent'
   end
 end

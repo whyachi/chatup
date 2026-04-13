@@ -46,6 +46,7 @@ export const FEATURE_FLAGS = {
   ADVANCED_SEARCH: 'advanced_search',
   CONVERSATION_REQUIRED_ATTRIBUTES: 'conversation_required_attributes',
   CHATUP_BOILERPLATE: 'chatup_boilerplate',
+  CHATUP_AI_AGENT: 'chatup_ai_agent',
 };
 
 export const PREMIUM_FEATURES = [

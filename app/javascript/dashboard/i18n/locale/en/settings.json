@@ -385,7 +385,54 @@
     "CONVERSATION_WORKFLOW": "Conversation Workflow",
     "CHATUP_MODULES": {
       "TITLE": "ChatUp Modules",
-      "BOILERPLATE": "Boilerplate"
+      "BOILERPLATE": "Boilerplate",
+      "AI_AGENT": "AI Agent"
+    }
+  },
+  "CHATUP_AI_AGENT": {
+    "TITLE": "AI Agent",
+    "SUBTITLE": "Configure your AI-powered customer assistant. Set business info, behavior, and let AI handle incoming messages.",
+    "LOADING": "Loading configuration...",
+    "SAVE": "Save",
+    "SAVING": "Saving...",
+    "SAVE_SUCCESS": "AI Agent configuration saved successfully.",
+    "SAVE_ERROR": "Failed to save configuration. Please try again.",
+    "TABS": {
+      "GENERAL": "General Settings",
+      "BEHAVIOR": "Behavior"
+    },
+    "GENERAL": {
+      "BUSINESS_NAME": "Business Name",
+      "BUSINESS_NAME_PLACEHOLDER": "e.g. Acme Corp",
+      "PHONE": "Phone",
+      "PHONE_PLACEHOLDER": "e.g. +90 555 123 4567",
+      "EMAIL": "Email",
+      "EMAIL_PLACEHOLDER": "e.g. info@acme.com",
+      "ADDRESS": "Address",
+      "ADDRESS_PLACEHOLDER": "Full business address",
+      "DESCRIPTION": "Business Description",
+      "DESCRIPTION_HELP": "Describe your business, mission, vision, products and services. The AI agent will use this to answer customer questions.",
+      "DESCRIPTION_PLACEHOLDER": "We are a technology company specializing in..."
+    },
+    "BEHAVIOR": {
+      "TONE": "Response Tone",
+      "TONE_PROFESSIONAL": "Professional",
+      "TONE_FRIENDLY": "Friendly",
+      "TONE_CASUAL": "Casual",
+      "LANGUAGE": "Response Language",
+      "AUTO_GREET": "Auto-greet customers",
+      "AUTO_GREET_HELP": "Send an automatic greeting when a customer starts a new conversation.",
+      "GREETING_PLACEHOLDER": "Hello! How can I help you today?",
+      "AUTO_HANDOFF": "Hand off to human agent",
+      "AUTO_HANDOFF_HELP": "Automatically transfer the conversation to a human agent when the AI cannot answer.",
+      "HANDOFF_PLACEHOLDER": "Let me connect you with a team member who can help you better.",
+      "OUT_OF_HOURS": "Out-of-hours auto-reply",
+      "OUT_OF_HOURS_HELP": "Send an automatic message when customers contact you outside working hours.",
+      "OUT_OF_HOURS_PLACEHOLDER": "We are currently outside of working hours. We will get back to you shortly.",
+      "COLLECT_CONTACT": "Collect contact information",
+      "COLLECT_CONTACT_HELP": "Ask customers for their name and email early in the conversation.",
+      "PRODUCT_RECOMMENDATIONS": "Product recommendations",
+      "PRODUCT_RECOMMENDATIONS_HELP": "Recommend relevant products or services based on the customer's needs."
     }
   },
   "CHATUP_BOILERPLATE": {

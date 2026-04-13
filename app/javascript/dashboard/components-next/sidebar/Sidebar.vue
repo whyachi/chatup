@@ -574,12 +574,17 @@ const menuItems = computed(() => {
       name: 'ChatUp Modules',
       label: t('SIDEBAR.CHATUP_MODULES.TITLE'),
       icon: 'i-lucide-blocks',
-      activeOn: ['chatup_boilerplate_index'],
+      activeOn: ['chatup_boilerplate_index', 'chatup_ai_agent_index'],
       children: [
         {
           name: 'ChatUp Boilerplate',
           label: t('SIDEBAR.CHATUP_MODULES.BOILERPLATE'),
           to: accountScopedRoute('chatup_boilerplate_index'),
+        },
+        {
+          name: 'ChatUp AI Agent',
+          label: t('SIDEBAR.CHATUP_MODULES.AI_AGENT'),
+          to: accountScopedRoute('chatup_ai_agent_index'),
         },
       ],
     },

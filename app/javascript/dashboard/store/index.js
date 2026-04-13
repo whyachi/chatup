@@ -59,6 +59,7 @@ import captainScenarios from './captain/scenarios';
 import captainTools from './captain/tools';
 import captainCustomTools from './captain/customTools';
 import chatupBoilerplate from './modules/chatup/boilerplate';
+import chatupAiAgent from './modules/chatup/aiAgent';
 
 const plugins = [];
 
@@ -123,6 +124,7 @@ export default createStore({
     captainTools,
     captainCustomTools,
     chatupBoilerplate,
+    chatupAiAgent,
   },
   plugins,
 });
