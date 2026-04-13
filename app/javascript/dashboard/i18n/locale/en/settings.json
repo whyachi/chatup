@@ -407,7 +407,7 @@
       "PHONE": "Phone",
       "PHONE_PLACEHOLDER": "e.g. +90 555 123 4567",
       "EMAIL": "Email",
-      "EMAIL_PLACEHOLDER": "e.g. info@acme.com",
+      "EMAIL_PLACEHOLDER": "e.g. info{'@'}acme.com",
       "ADDRESS": "Address",
       "ADDRESS_PLACEHOLDER": "Full business address",
       "DESCRIPTION": "Business Description",
