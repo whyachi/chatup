@@ -8,7 +8,6 @@ import Behavior from './tabs/Behavior.vue';
 
 const store = useStore();
 const { t } = useI18n();
-const useAlertFn = useAlert();
 
 const activeTab = ref('general');
 const tabs = [
@@ -26,9 +25,9 @@ onMounted(() => {
 const onSave = async formData => {
   try {
     await store.dispatch('chatupAiAgent/saveConfig', formData);
-    useAlertFn(t('CHATUP_AI_AGENT.SAVE_SUCCESS'));
+    useAlert(t('CHATUP_AI_AGENT.SAVE_SUCCESS'));
   } catch (error) {
-    useAlertFn(t('CHATUP_AI_AGENT.SAVE_ERROR'));
+    useAlert(t('CHATUP_AI_AGENT.SAVE_ERROR'));
   }
 };
 </script>
