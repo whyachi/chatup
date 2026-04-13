@@ -13,7 +13,6 @@ class Chatup::AiAgent < ApplicationRecord
                  :product_recommendations, :language
 
   validates :account_id, presence: true, uniqueness: true
-  validates :business_name, presence: true
 
   before_validation :ensure_captain_assistant
   after_save :sync_to_captain

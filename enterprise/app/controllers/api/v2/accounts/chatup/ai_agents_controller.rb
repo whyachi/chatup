@@ -9,8 +9,11 @@ class Api::V2::Accounts::Chatup::AiAgentsController < Api::V1::Accounts::BaseCon
   def update
     @ai_agent = find_or_initialize_ai_agent
     @ai_agent.assign_attributes(ai_agent_params)
-    @ai_agent.save!
-    render json: ai_agent_response(@ai_agent)
+    if @ai_agent.save
+      render json: ai_agent_response(@ai_agent)
+    else
+      render json: { error: @ai_agent.errors.full_messages.join(', ') }, status: :unprocessable_entity
+    end
   end
 
   private
